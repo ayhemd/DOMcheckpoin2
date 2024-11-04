@@ -1,0 +1,33 @@
+/* Center the container and add top margin */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Style the color box */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Default blue color */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Style the button */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#change-color-btn:hover {
+    background-color: #27ae60;
+}
